@@ -6,7 +6,7 @@ import streamlit as st
 import traceback
 
 # client = OpenAI(api_key = st.secrets("api_key"))
-client = OpenAI(api_key = st.secrets("api_key"))
+client = OpenAI(api_key = st.secrets["api_key"])
 
 guidelines = [
     "The Genuine Student (GS) requirement in Australia requires all applicants for a student visa to be a genuine applicant for entry.",
